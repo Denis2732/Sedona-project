@@ -81,10 +81,19 @@ a:active{
 	width: 106px;
 	margin-top: 22px;
 }
+.li-hotels{
+	text-align: right;
+}
 .logo {
 	height: 97px;
 	width: 186px;
 	z-index: 1;
+}
+.logo-tablet {
+	height: 83px;
+	width: 102px;
+	z-index: 1;
+	display: none;
 }
 .first {
 	width: 100%;
@@ -96,6 +105,7 @@ a:active{
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
+	box-sizing: border-box;
 }
 .header-text {
 	margin:0 auto;
@@ -139,13 +149,24 @@ p{
 	margin:0 auto;
 	margin-top: 59px
 	width: 100%;
+	overflow: hidden;
 
 }
 .city {
 	width: 33.33%;
+	min-width: 256px;
 	background-color: #81b3d2;
 	text-align: center;
 	color: #fff;
+	height: 256px;
+}
+.div-img-two {
+	height: 256px;
+	overflow: hidden;
+}
+.two-img {
+	min-width: 800px;
+	height: 256px;
 }
 .city h2{
 	color: #fff;
@@ -164,6 +185,24 @@ p{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 55px;
+
+}
+.housing p{
+	max-width: 255px;
+	margin: 0 auto;
+}
+.foot p{
+	max-width: 287px;
+	margin: 0 auto;
+}
+.souvenir p{
+	max-width: 216px;
+	margin: 0 auto;
+}
+.one-img{
+	min-width: 800px;
+	height: 256px;
 
 }
 .housing {
@@ -228,13 +267,9 @@ p{
 .number-two {
 	display: flex;
 	flex-direction: row;
+	overflow: hidden;
 }
-.city {
-	width: 33.33%;
-	background-color: #81b3d2;
-	text-align: center;
-	color: #fff;
-}
+
 .three-to-five {
 	margin:0 auto; 
 	width: 100%;
@@ -243,6 +278,10 @@ p{
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: #eee; 
+}
+.three-to-five p{
+	max-width: 250px;
+	margin:0 auto;
 }
 .three {
 	width: 33.33%;
@@ -253,6 +292,8 @@ p{
 	margin-bottom: 22px;
 }
 .three p{
+	max-width: 250px;
+	margin:0 auto;
 	margin-top: 33px;
 }
 .four {
@@ -563,7 +604,9 @@ legend{
 label{
 	cursor: pointer;
 	font-weight: 700;
-	margin-top: 65px;
+}
+.contacts label{
+	margin-top: 35px;
 }
 .radio {
 	position: absolute;
@@ -572,6 +615,11 @@ label{
 	appearance: none;
 }
 .radio-label {
+	margin-top: 66px;
+	font-size: 18px;
+}
+.radio-label-top {
+	margin-top: 66px;
 	font-size: 18px;
 }
 .radio-box {
@@ -642,9 +690,9 @@ label:focus{
 	border: #81b3d2 solid 2px;
 }
 .contacts {
-	margin-right: 120px; 
-	margin-left: 120px;
-	max-width: 1280px;
+	margin: 0 auto;
+	max-width: 960px;
+
 }
 .contacts-form {
 	margin: 0 auto;
@@ -658,8 +706,6 @@ label:focus{
 }
 fieldset {
 	border-top: #dbdbdb solid 1px;
-	margin-right: 40px;
-	margin-left: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -690,7 +736,7 @@ fieldset {
 	font-size: 14px;
 	font-weight: 700;
 	background-color: #eee;
-	margin-bottom: 70px;
+	margin-bottom: 65px;
 }
 .fio4:hover,
 .fio4:focus{
@@ -702,16 +748,14 @@ fieldset {
 
 .chekbox {
 	margin: 0 auto;
-	padding-left: 120px;
-	padding-right: 120px;
 	margin-bottom: 70px;
 }
 .chekbox-form {
-	max-width: 1280px;
+	margin: 0 auto;
+	max-width: 960px;
 }
 .chekbox-input {
 	margin-bottom: 70px;
-	margin-right: 25px;
 	position: absolute;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -720,6 +764,8 @@ fieldset {
 .chekbox label{
 	font-size: 18px;
 	margin-left: 70px;
+	margin-top: 65px;
+	width: 122px;
 }
 .chekbox-box {
 	position: absolute;
@@ -741,8 +787,8 @@ fieldset {
 
 /*Поле текста*/
 .text-sec {
-	padding-left: 120px;
-	padding-right: 120px;
+	margin: 0 auto;
+	max-width: 960px;
 }
 .text-form {
 	margin: 0 auto;
@@ -754,8 +800,7 @@ fieldset {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-right: 40px;
-	margin-left: 40px;
+	
 }
  .text-input {
  	margin-top: 70px;
@@ -926,11 +971,12 @@ fieldset {
 	max-width: 1280px;
 	height: 85px; 
 	margin: 0 auto;
-	padding-left: 130px;
-	padding-right: 130px;
+	margin-left: 130px;
+	margin-right: 130px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	position: relative;
 }
 .sort h2{
 	margin: 0px;
@@ -966,11 +1012,17 @@ fieldset {
 	opacity: 1;
 	font-weight: 700;
 }
+.div-sort {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-shrink: 0;
+}
 .switch-box{
-	width: 38.63%;
 	height: 85px;
+	right: 0;
 	margin-left: 2px;
-	position: relative;
+	position: absolute;
 
 }
 .switch-up {
@@ -1138,4 +1190,70 @@ fieldset {
 }
 .margin-footer {
 	margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px){
+.form-radio legend{
+	position: absolute;
+	left: 120px;
+}
+.radio-label-top {
+	margin-top: 86px;
+}
+.form-radio {
+	margin-left: 110px;
+}
+.form-fio {
+	margin-right: 40px;
+}
+.contacts {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.chekbox-form {
+	margin-right: 40px;
+    margin-left: 40px;
+}
+.text-sec {
+	margin-right: 40px;
+    margin-left: 40px;
+}
+
+}
+
+@media screen and (max-width: 960px){
+.menu {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.logo {
+	display: none;
+}
+.logo-tablet {
+	display: block;
+}
+.section-filter-form {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.sort {
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.section-alternative {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.contacts {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.form-radio legend{
+	left: 40px;
+}
+.form-fio{	
+}
+.fio3 {
+	margin-left: 91px;
+}
 }
