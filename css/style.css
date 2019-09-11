@@ -45,6 +45,7 @@ border-spacing: 0;
 box-sizing: border-box;
 }
 body {
+	overflow-x: hidden;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
@@ -1350,6 +1351,10 @@ fieldset {
 .fio3 {
 	margin-left: 91px;
 }
+.footer {
+	padding-left: 40px;
+	padding-right: 40px;
+}
 }
 @media screen and (max-width: 768px){
 
@@ -1361,5 +1366,124 @@ fieldset {
 }
 .burger{
 	display: flex;
+}
+.header-text {
+	margin:0 auto;
+	margin-top: 73px;
+	height: auto;
+	width: 280px;
+}
+.first {
+	
+	height: 395px;
+}
+.five-reason-title {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.div-img-two {
+	width: 100%;
+}
+.city {
+	width: 100%;
+}
+.number-one {
+	flex-wrap: wrap;
+}
+.number-two {
+	flex-wrap: wrap;
+	flex-direction: column-reverse;: 
+}
+.icons {
+	display: block;
+	height: auto;
+}
+.housing {
+	margin:0 auto;
+	height: 260px;
+	width: 280px; 
+}
+.housing p{
+	width: 255px;
+}
+.foot {
+	margin:0 auto;
+	height: 260px;
+	width: 280px; 
+}
+.foot p{
+	width: 255px;
+}
+.souvenir {
+	margin:0 auto;
+	height: 260px;
+	width: 280px; 
+}
+.souvenir p{
+	width: 255px;
+}
+.three-to-five {
+ 	display: block;
+ 	height: auto;
+ 	padding-top: 35px;
+ 	padding-bottom: 35px;
+}
+.three {
+	margin:0 auto;
+	width: 280px;
+}
+.three h2{
+	margin-bottom: 18px;
+}
+.three p{
+	margin-top: 25px;
+	width: 255px;
+}
+.four {
+	margin:0 auto;
+	width: 280px;
+}
+.four h2{
+	margin-bottom: 18px;
+}
+.four p{
+	margin-top: 25px;
+	width: 255px;
+}
+.five {
+	margin:0 auto;
+	width: 280px;
+}
+.five h2{
+	margin-bottom: 18px;
+}
+.five p{
+	margin-top: 25px;
+	width: 255px;
+}
+.btn {
+	width: 280px;
+}
+
+}
+@media screen and (max-width: 590px){
+.footer {
+	display: block;
+}
+.visitsedona {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.soc-sety {
+	margin: 0 auto;
+	justify-content: center;
+}
+.develop {
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+.map {
+	margin-bottom: 25px;
 }
 }
