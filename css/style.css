@@ -432,6 +432,8 @@ h3{
 .interest p{
 	margin-top: 35px;
 	margin-bottom: 50px; 
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .btn {
 	width: 460px;
@@ -553,6 +555,13 @@ footer {
 	max-width: 1200px;
 	margin-top: 55px;
 }
+.foto-video p{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 430px;
+	margin-top: 40px;
+	margin-bottom: 55px;
+}
 .foto {
 	margin:0 auto;
 	max-width: 1200px;
@@ -606,6 +615,7 @@ footer {
 	justify-content: space-between;
 }
 .text-band p{
+	text-align: left;	
 	color: #fff;
 }
 .text {
@@ -648,10 +658,11 @@ footer {
 }
 .video {
 	width: 100%;
-	height: 833px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-bottom: 60px;
 }
 video {
 	margin:0 auto; 
@@ -978,15 +989,11 @@ fieldset {
 	background-image: url("../img/checkbox-off.png"); 
 	margin-top: -5px;
 	margin-left: -35px;
-
 }
-
 .chekbox-input-filter:checked + .chekbox-filter {
 	position: absolute;
 	background-image: url("../img/checkbox-on.png");
-
 }
-
 .chekbox-filter:hover,
 .chekbox-filter:focus{
 	background-color: #81b3d2;
@@ -1040,7 +1047,6 @@ fieldset {
 .slider-price {
 	width: 330px;
 	margin-bottom: 15px;
-
 }
 .btn-price-filter{
 	width: 137px;
@@ -1061,7 +1067,6 @@ fieldset {
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.25),
     0 0 4px rgba(0,0,0,0.12);
 }
-
 .sort {
 	max-width: 1280px;
 	height: 85px; 
@@ -1118,23 +1123,18 @@ fieldset {
 	right: 0;
 	margin-left: 2px;
 	position: absolute;
-
 }
 .switch-up {
 	position: absolute;
 	right: 0;
 	top: 30px;
-	margin-right: 40px;
-
-	
+	margin-right: 40px;	
 }
 .switch-down {
 	position: absolute;
 	right: 0;
 	top: 30px;
 	margin-right: 40px;
-
-	
 }
 .switch-up:before {
 	content: ''; 
@@ -1181,7 +1181,6 @@ fieldset {
 	flex-direction: row;
 	justify-content: flex-start;
 	position: relative;
-	
 }
 .two {
 	border-top: none;
@@ -1312,7 +1311,6 @@ fieldset {
 	margin-right: 40px;
     margin-left: 40px;
 }
-
 }
 
 @media screen and (max-width: 960px){
@@ -1355,6 +1353,10 @@ fieldset {
 	padding-left: 40px;
 	padding-right: 40px;
 }
+video {
+	width: 700px;
+	height: 440px;
+}
 }
 @media screen and (max-width: 768px){
 
@@ -1373,9 +1375,14 @@ fieldset {
 	height: auto;
 	width: 280px;
 }
+.text-sedona {
+	margin-top: 50px;
+}
 .first {
-	
 	height: 395px;
+}
+.first-photo {
+	height: 160px;
 }
 .five-reason-title {
 	margin-left: 20px;
@@ -1427,13 +1434,18 @@ fieldset {
  	height: auto;
  	padding-top: 35px;
  	padding-bottom: 35px;
+ 	padding-left: 20px;
+	padding-right: 20px;
 }
 .three {
 	margin:0 auto;
-	width: 280px;
+	width: 100%;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #d6d6d6;
 }
 .three h2{
 	margin-bottom: 18px;
+	margin-top: 0;
 }
 .three p{
 	margin-top: 25px;
@@ -1441,10 +1453,13 @@ fieldset {
 }
 .four {
 	margin:0 auto;
-	width: 280px;
+	width: 100%;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #d6d6d6;
 }
 .four h2{
 	margin-bottom: 18px;
+	margin-top: 30px;
 }
 .four p{
 	margin-top: 25px;
@@ -1452,10 +1467,11 @@ fieldset {
 }
 .five {
 	margin:0 auto;
-	width: 280px;
+	width: 100%;
 }
 .five h2{
 	margin-bottom: 18px;
+	margin-top: 30px;
 }
 .five p{
 	margin-top: 25px;
@@ -1464,7 +1480,49 @@ fieldset {
 .btn {
 	width: 280px;
 }
-
+video {
+	width: 500px;
+	height: 315px;
+}
+.foto {
+	height: auto;
+} 
+.non-native-expanses {
+	width: 87.5%;
+	height: 280px;
+	margin: 0 auto;
+}
+.three-foto-band {
+	height: auto;
+	flex-wrap: 	wrap;	
+}
+.native-vegetation {
+	width: 87.5%;
+	height: 280px;
+	margin-bottom: 110px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.road {
+	width: 87.5%;
+	height: 280px;
+	margin-bottom: 110px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.devil-bridge {
+	width: 87.5%;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 20px;	
+}
+.foto-video p{
+	padding-left: 20px;
+	padding-right: 20px; 
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 55px;
+}
 }
 @media screen and (max-width: 590px){
 .footer {
@@ -1485,5 +1543,25 @@ fieldset {
 }
 .map {
 	margin-bottom: 25px;
+}
+video {
+	width: 400px;
+	height: 250px;
+}
+.video {
+	margin-bottom: 30;
+}
+}
+@media screen and (max-width: 430px){
+video {
+	width: 300px;
+	height: 190px;
+}
+.video {
+	margin-bottom: 10;
+}
+.video p{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 }
