@@ -680,6 +680,16 @@ video {
 	margin-top: 55px;
 	margin-bottom: 70px;
 }
+.leave-your-feedback p{
+	text-align: center;
+	max-width: 430px;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 55px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
 
 /*Радио кнопки*/
 
@@ -912,7 +922,8 @@ fieldset {
  	margin-top: 70px;
  	border: none;
 	height: 160px;
-	max-width: 960px;
+	width: 75%;
+	min-width: 280px;
 	font-size: 14px;
 	font-weight: 700;
 	background-color: #eee;
@@ -950,7 +961,6 @@ fieldset {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-
 }
 .filter-form {
 	width: 160px;
@@ -1312,7 +1322,6 @@ fieldset {
     margin-left: 40px;
 }
 }
-
 @media screen and (max-width: 960px){
 .menu {
 	padding-right: 40px;
@@ -1331,7 +1340,6 @@ fieldset {
 .sort {
 	margin-left: 40px;
 	margin-right: 40px;
-
 }
 .section-alternative {
 	padding-left: 40px;
@@ -1359,7 +1367,6 @@ video {
 }
 }
 @media screen and (max-width: 768px){
-
 .menu {
 	display: none;
 }
@@ -1523,8 +1530,117 @@ video {
 	margin-top: 40px;
 	margin-bottom: 55px;
 }
+.form-start {
+	height: auto;
+	display: block;
+}
+.form-radio {
+	margin-bottom: 30px;
+}
+.form-fio {
+	max-width: 462px;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-top: 15px;
+}
+.fio {
+	width: 373px;
+	margin-left: 51px;
+}
+.fio2 {
+	width: 373px;
+}
+.fio3 {
+	width: 301px;
+}
+.fio4 {
+	width: 301px;
+}
+.filter {
+	height: auto;
+	margin: 0 auto;
+}
+.section-filter-form{
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+.filter-form {
+	margin-top: 35px;
+	margin-left: 30px;
+}
+.type-of-housing {
+	margin-left: 49px;
+}
+.price {
+	max-width: 660px;
+	justify-content: center;
+	margin: 0 auto;
+}
+.section-alternative {
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.alternativs{
+	height: auto;
+}
+.alternative {
+	flex-direction: column;
+	height: 261px;
+	padding-top: 25px;
+}
+.hotel-alternative {
+	margin-left: 0;
+	margin-top: 25px; 
+}
+.star {
+	top: 25px;
+}
+.rating {
+	bottom: 145px;
+}
+}
+@media screen and (max-width: 700px){
+.div-sort {
+    position: relative;
+}
+.div-sort p{
+	display: none;
+}
 }
 @media screen and (max-width: 590px){
+.div-sort {
+	height: auto;
+}
+.div-sort a{
+	margin-left: 0px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.choice-one {
+	position: absolute;
+}
+.choice-two {
+	position: absolute;
+	width: 55px;
+	left: 65px;
+}
+.choice-three {
+	position: absolute;
+	left: 130px;
+	width: 100px;
+}
+.sort {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.switch-up {
+    top: 54px;
+}
+.switch-down {
+    top: 54px;
+}
 .footer {
 	display: block;
 }
@@ -1551,6 +1667,115 @@ video {
 .video {
 	margin-bottom: 30;
 }
+.form-radio {
+	margin-left: 90px;
+}
+.form-radio legend {
+    left: 20px;
+}
+.mandatory-field {
+	position: relative;
+	right: 0px;
+	bottom: 30px;
+}
+.text-sec {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.form-radio {
+	max-width: 590px;
+}
+.form-fio {
+	margin-right: 20px;
+	margin-left: 20px;
+	max-width: 590px;
+	height: auto;
+}
+.title {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.chekbox-form {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contacts {
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 590px;
+}
+.form-fio {
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 365px;
+	position: relative;
+}
+.fio {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 0;
+}
+.fio2 {
+	margin-left: 0;
+	width: 100%;
+	margin-top: 0;
+}
+.fio3 {
+	margin-left: 0;
+	width: 100%;
+}
+.fio4 {
+	margin-left: 0;
+	width: 100%;
+}
+.fio-label-name{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+}
+.fio-label-surname {
+	position: absolute;
+	top: 170px;
+	width: 100%;
+}
+.fio-label-patronymic {
+	position: absolute;
+	top: 270px;
+	width: 100%;
+}
+.tel {
+	width: 100%
+}
+.email {
+	width: 100%
+}
+.impression {
+	width: 100%;
+	text-align: center;
+	padding-right: 20px;
+}
+.introduce {
+	text-align: center;
+}
+fieldset {
+	border-top: none;
+}
+.type-of-housing {
+    margin-left: 10px;
+}
+}
+@media screen and (max-width: 440px){
+.section-filter-form {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: flex-start;
+}
+.price-input-block {
+    width: 280px;
+}
+.slider-price {
+    width: 280px;
+} 
 }
 @media screen and (max-width: 430px){
 video {
@@ -1563,5 +1788,21 @@ video {
 .video p{
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.title {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+fieldset {
+    border-top: none;
+}
+}
+@media screen and (max-width: 400px){
+.section-filter-form {
+    justify-content: flex-start;
+}
+.type-of-housing {
+    margin-left: 30px;
+    margin-top: -10px;
 }
 }
