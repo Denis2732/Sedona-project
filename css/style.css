@@ -664,7 +664,7 @@ footer {
 	justify-content: center;
 	margin-bottom: 60px;
 }
-video {
+iframe {
 	margin:0 auto; 
 	width: 800px;
 	height: 500px;
@@ -1023,11 +1023,19 @@ fieldset {
 	justify-content: flex-end;
 }
 .filter-fieldset {
-	border: none;
-	max-width: 330px;
-	height: 218px;
-	margin-right: 0px;
-	padding-bottom: 20px;
+    border: none;
+    max-width: 330px;
+    height: 188px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filter-fieldset legend{
+	margin-top: 0;
 }
 .price-input-block {
 	width: 330px;
@@ -1361,7 +1369,7 @@ fieldset {
 	padding-left: 40px;
 	padding-right: 40px;
 }
-video {
+iframe { 
 	width: 700px;
 	height: 440px;
 }
@@ -1487,7 +1495,7 @@ video {
 .btn {
 	width: 280px;
 }
-video {
+iframe { 
 	width: 500px;
 	height: 315px;
 }
@@ -1660,7 +1668,7 @@ video {
 .map {
 	margin-bottom: 25px;
 }
-video {
+iframe { 
 	width: 400px;
 	height: 250px;
 }
@@ -1778,7 +1786,7 @@ fieldset {
 } 
 }
 @media screen and (max-width: 430px){
-video {
+iframe { 
 	width: 300px;
 	height: 190px;
 }
